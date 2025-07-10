@@ -5,6 +5,11 @@
   font-style: normal;
 }
 
+::selection {
+  background: #f5e3d2;
+  color: rgb(41, 41, 41)
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

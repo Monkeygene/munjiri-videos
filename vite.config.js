@@ -9,6 +9,7 @@ export default defineConfig({
       input: {
         main: path.resolve(__dirname, 'index.html'),
         contact: path.resolve(__dirname, 'contact.html'),
+        blog: path.resolve(__dirname, 'blog.html'),
       }
     }
   }
