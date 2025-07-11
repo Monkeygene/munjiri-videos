@@ -9,12 +9,8 @@
 <meta name="author" content="Munjiri Videos - Katy and Eugene"/>
 <!-- Titles -->
 <title>Munjiri Videos | Video Storytelling</title>
-
 <link rel="canonical" href="https://www.munjiri.com/"/>
-
 <link rel="icon" href="/src/assets/images/logo/munjiri-take-two.gif" type="image/x-icon" />
-
-
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-57585637-2"></script>
 <script>
@@ -25,7 +21,7 @@
   gtag('config', 'UA-57585637-2');
 </script>
 <!-- Stylesheets -->
-<link rel="stylesheet" href="src/style.css">
+<link rel="stylesheet" href="/src/style.css">
 </head>
 <body class="bg-linen brand-light font-crimson">
 <header id="siteHeader" class="font-crimson fixed bg-white shadow-md w-full z-50 transition-all duration-300">
@@ -61,10 +57,10 @@
                 d="M19 9l-7 7-7-7" />
             </svg>
           </button>
-          <div class="absolute left-0 mt-2 w-48 bg-white border rounded-md shadow-lg opacity-0 group-hover:opacity-100 group-hover:translate-y-1 transform transition-all duration-200 z-10">
-            <a href="creative-video-productions.html" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Creativity</a>
-            <a href="charity-video-production.html" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Community</a>
-            <a href="nature-video-production.html" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Caring for Nature</a>
+          <div class="text-center absolute left-0 w-48 bg-white opacity-0 group-hover:opacity-100 group-hover:translate-y-1 transform transition-all duration-200 z-10">
+            <a href="creative-video-productions.html" class="mt-4 block px-4 py-2 text-gray-800 hover:text-gray-500">Creativity</a>
+            <a href="charity-video-production.html" class="block px-4 py-2 text-gray-800 hover:text-gray-500">Community</a>
+            <a href="nature-video-production.html" class="mb-4 block px-4 py-2 text-gray-800 hover:text-gray-500">Caring for Nature</a>
           </div>
         </div>
 
@@ -94,16 +90,21 @@
   </div>
 </header>
 <section id="hero" class="font-crimson relative h-screen w-full overflow-hidden bg-black">
-  <!-- Background Video -->
-  <div class="absolute inset-0 z-0">
-    <iframe
-      class="w-full h-full object-cover"
-      src="https://www.youtube.com/embed/JdIaYJL6bS8?autoplay=1&mute=1&loop=1&playlist=JdIaYJL6bS8&controls=0&showinfo=0&modestbranding=1&rel=0"
-      title="Background video"
-      frameborder="0"
-      allow="autoplay; fullscreen"
-    ></iframe>
-    <div class="absolute inset-0 bg-black opacity-10"></div> <!-- Overlay -->
+   <!-- Background Video -->
+  <div class="absolute inset-0 z-0 overflow-hidden">
+    <!-- Wrapper to control scale -->
+    <div class="w-full h-full transform scale-[3] md:scale-[2] lg:scale-[1] transition duration-300 ease-in-out">
+      <iframe
+        class="w-full h-full"
+        src="https://www.youtube.com/embed/JdIaYJL6bS8?autoplay=1&mute=1&loop=1&playlist=JdIaYJL6bS8&controls=0&showinfo=0&modestbranding=1&rel=0"
+        title="Background video"
+        frameborder="0"
+        allow="autoplay; fullscreen"
+      ></iframe>
+    </div>
+
+    <!-- Overlay -->
+    <div class="absolute inset-0 bg-black opacity-10"></div>
   </div>
 
   <!-- Content -->

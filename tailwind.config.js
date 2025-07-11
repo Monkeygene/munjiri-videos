@@ -5,6 +5,7 @@ export default {
     "./index.html",
      "./blog.html",
     "./contact.html",
+    "./video-content-packages.html",
     "./src/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
