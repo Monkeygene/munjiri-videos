@@ -1,2 +1,2 @@
-import './style.css';
-import './nav.js';
+import './style.css'
+import './nav.js'

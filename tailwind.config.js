@@ -10,6 +10,11 @@ export default {
     "./creative-video-productions.html",
     "./charity-video-production.html",
     "./nature-video-production.html",
+    "./video-production-cape-town.html",
+    "./video-production-kenya.html",
+    "./video-production-portugal.html",
+    "./video-production-south-africa.html",
+    "./videographer-portugal.html",
     "./src/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
