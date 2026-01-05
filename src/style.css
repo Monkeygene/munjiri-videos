@@ -13,3 +13,38 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Global typography */
+@layer base {
+  body {
+    @apply font-crimson text-base md:text-lg text-gray-700 leading-relaxed;
+  }
+
+  h1 {
+    @apply font-crimson text-3xl md:text-4xl leading-tight;
+  }
+
+  h2 {
+    @apply font-crimson text-3xl md:text-4xl leading-tight;
+  }
+
+  h3 {
+    @apply font-crimson text-2xl md:text-3xl;
+  }
+
+  h4 {
+    @apply font-crimson text-xl md:text-2xl font-medium;
+  }
+
+  h5 {
+    @apply font-crimson text-lg font-medium;
+  }
+
+  h6 {
+    @apply font-crimson text-base font-medium uppercase tracking-wide;
+  }
+
+  p {
+    @apply mb-4;
+  }
+}

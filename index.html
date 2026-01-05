@@ -34,7 +34,7 @@
 </head>
 
 <body class="bg-linen font-crimson text-gray-800">
-    <!-- NAVBAR -->
+    <!-- navbar -->
 <header id="siteHeader" class="bg-linen font-crimson fixed w-full z-50 transition-all duration-300">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex justify-between items-center h-24 transition-all duration-300" id="navInner">
@@ -101,19 +101,16 @@
   </div>
 </header>
 <main class="pt-20 md:pt-34">
-<section class="font-crimson relative h-screen w-full overflow-hidden bg-black">
-   <!-- Background Video -->
-  <div class="absolute inset-0 z-0 overflow-hidden">
-    <!-- Wrapper to control scale -->
-    <div class="w-full h-full transform scale-[3] md:scale-[2] lg:scale-[1] transition duration-300 ease-in-out">
-      <iframe
-        class="w-full h-full"
-        src="https://www.youtube.com/embed/JdIaYJL6bS8?autoplay=1&mute=1&loop=1&playlist=JdIaYJL6bS8&controls=0&showinfo=0&modestbranding=1&rel=0"
-        title="Background video"
-        frameborder="0"
-        allow="autoplay; fullscreen"
-      ></iframe>
-    </div>
+<section class="relative h-screen w-full overflow-hidden">
+  <!-- YouTube Background -->
+  <div class="absolute inset-0 w-full h-full bg-black z-0">
+    <iframe
+      class="absolute top-1/2 left-1/2 min-w-[177.77vh] min-h-[100vh] w-[100vw] h-[56.25vw] -translate-x-1/2 -translate-y-1/2 pointer-events-none"
+      src="https://www.youtube.com/embed/JdIaYJL6bS8?autoplay=1&mute=1&loop=1&playlist=JdIaYJL6bS8&controls=0&showinfo=0&modestbranding=1&rel=0"
+      frameborder="0"
+      allow="autoplay; fullscreen"
+      title="Background video"
+    ></iframe>
 
     <!-- Overlay -->
     <div class="absolute inset-0 bg-black opacity-10"></div>
@@ -122,16 +119,17 @@
   <!-- Content -->
   <div class="relative z-10 flex items-center justify-center h-full">
     <div class="text-center text-white max-w-3xl px-6">
-      <h1 class="text-xl md:text-4xl font-light leading-tight mb-6 font-crimson">
+      <h1 class="mb-6">
         Video Storytelling
       </h1>
-      <p class="text-md md:text-xl font-light leading-relaxed">
+      <p class="">
         Hi! We're Katy and Eugene, two filmmakers / videographers who<br />
         simplify video production to help brands that care grow.
       </p>
     </div>
   </div>
 </section>
+
 
 <section id="content" class="font-crimson text-black py-24 px-4">
   <div class="max-w-4xl mx-auto text-center">
