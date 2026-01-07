@@ -3,11 +3,57 @@
   src: url('./assets/fonts/CrimsonText-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Crimson Text';
+  src: url('./assets/fonts/CrimsonText-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Crimson Text';
+  src: url('./assets/fonts/CrimsonText-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Crimson Text';
+  src: url('./assets/fonts/CrimsonText-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Crimson Text';
+  src: url('./assets/fonts/CrimsonText-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Crimson Text';
+  src: url('./assets/fonts/CrimsonText-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
 }
 
 ::selection {
   background: #f5e3d2;
   color: rgb(41, 41, 41)
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 @tailwind base;
@@ -17,7 +63,7 @@
 /* Global typography */
 @layer base {
   body {
-    @apply font-crimson text-base md:text-lg text-gray-700 leading-relaxed;
+    @apply bg-linen font-crimson text-base md:text-lg text-gray-700 leading-relaxed;
   }
 
   h1 {
@@ -25,7 +71,7 @@
   }
 
   h2 {
-    @apply font-crimson text-3xl md:text-4xl leading-tight;
+    @apply font-crimson font-bold text-lg md:text-xl leading-tight;
   }
 
   h3 {
